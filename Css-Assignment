@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="CSSAssignmentquestion1.css" rel="stylesheet">
+</head>
+<body>
+    <div class="navbar">
+        <img src="https://antra.com/wp-content/uploads/2021/02/2021-02-18-2.png" align="left" width="20%">
+        <div>
+            <input type="text" placeholder="Search.." name="search">
+        </div>
+        <ul>
+            <li><a href="">NEWS</a></li>
+            <li><a href="">ABOUT THE UNIVERSITY</a></li>
+            <li><a href="">TRANING COURSES</a></li>
+            <li><a href="">FOR COMPANIES</a></li>
+            <li><a href="">FORUM</a></li>
+            <li><a href="">CONTACTS</a></li>
+        </ul>
+         </div>
+</body>
+</html>
+.navbar ul li a{
+    text-decoration: none;
+    background-color:lightblue;
+    height: 100px;
+    
+}
+.navbar ul{
+    list-style-type: none; 
+}
+.navbar li{
+    display: inline;
+    text-transform: uppercase;
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+  }
+  
+  li {
+    float: left;
+  }
+  
+  li a {
+    display: block;
+    padding: 8px;
+  }
+  <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="CssAssignmentQuestion2.css" rel="stylesheet">
+</head>
+<body>
+    <div>
+        <footer>
+            <div align="left">
+            <ul>
+                <h1>Corporate Office:</h1>
+                <p>21355 Ridgetop Circle</p>
+                <p>Suite #300</p>
+                <p>Dulles,VA 20166</p>
+                <p>Ph:703 994 4645</p>
+                <p>email:info@antra.net</p>
+            </ul>
+            </div>
+
+            <div>
+                <h1>Services</h1>
+                <li><a href="">Technology Services</a></li>
+                <li><a href="">Business Advisory Services</a></li>
+                <li><a href="">Professional Services</a></li>
+                <li><a href="">Blog</a></li>
+                <li><a href="">About us</a></li>
+                <li><a href="">Contact us</a></li>
+            </div>
+
+            <div>
+                <h1>Resources</h1>
+                <li><a href="">Case Studies</a></li>
+                <li><a href="">White Papers</a></li>
+                <li><a href="">Technology Resources</a></li>
+                <li><a href="">Top Technology Trends 2017</a></li>
+                <li><a href="">Agile Transformations</a></li>
+                <li><a href="">Web&Mobile Application Development</a></li>
+            </div>
+
+            <div id="rights">
+                &copy; 2017 Antra Inc All rights reserved
+            </div>
+
+            <div id="footer">
+                <p>Antra Inc. 21355 Ridgetop Circle Suite 300 Dulles VA 20166</p>
+                <p>Phone: 703.994.4545 Fax: 703.373.2975 e-mail:hr@antra.net website: www.antra.net</p>
+
+            </div>
+
+        </footer>
+
+    </div>
+    
+</body>
+</html>
+#footer {
+    position: absolute;
+    bottom: 0px;
+    background-color: orange;
+    width: 100%;
+    text-align: center;
+}
+*{
+    font-family: Calibri;
+}
+h1{
+    color:blue
+}
+p{
+    text-align: justify;
+    
+}
+div span{
+    background-color: yellow;
+}
+
+div > p{
+    background-color: gray;
+}
+
+.black-border{
+    border: 1px solid black;
+}
+
+#header{
+    background-color: coral;
+    color:white
+}
+
+#footer{
+    background-color: black;
+    color: white;
+}
+
+[type="text"]{
+    background-color: red;
+    color: black;
+}
+
+[type="password"]{
+    background-color: green;
+    color: red;
+}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="index3.css" rel="stylesheet">
+</head>
+<body>
+    <div class="navbar">
+        <ul>
+            <li><a href="">Home</a></li>
+            <li><a href="">Contract us</a></li>
+            <li><a href="">About us</a></li>
+            <li><a href="">Services</a></li>
+        </ul>
+         </div>
+</body>
+</html>
